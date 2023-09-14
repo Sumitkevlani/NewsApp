@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar.jsx";
 import News from "./components/News.jsx";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   const categories = [
