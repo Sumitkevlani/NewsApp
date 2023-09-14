@@ -27,19 +27,11 @@ export default function News(props) {
   async function fetchPreviousPage() {
     const newPage = page - 1;
     setPage(newPage);
-    // let url = `https://newsapi.org/v2/everything?q=Apple&from=2023-09-01&apiKey=01c4556a49ba4b1983b2b56fb4dd6492&page=${page}&pageSize=20`;
-    // let data = await fetch(url);
-    // let parsedData = await data.json();
-    // setArticles(parsedData.articles);
   }
 
   async function fetchNextPage() {
     const newPage = page + 1;
     setPage(newPage);
-    // let url = `https://newsapi.org/v2/everything?q=Apple&from=2023-09-01&apiKey=01c4556a49ba4b1983b2b56fb4dd6492&page=${page}&pageSize=20`;
-    // let data = await fetch(url);
-    // let parsedData = await data.json();
-    // setArticles(parsedData.articles);
   }
 
   return (
